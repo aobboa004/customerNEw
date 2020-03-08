@@ -48,7 +48,7 @@ public class EventRegistration extends AppCompatActivity implements PaymentResul
             @Override
             public void onClick(View v) {
                 saveClient();
-                //startPayment();
+                startPayment();
             }
         });
     }
